@@ -305,7 +305,8 @@ img {
 .clients-item + .clients-item {
   margin-left: 30px;
 }
-.clients-thumb {
+.clients-link {
+  display: block;
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -313,7 +314,8 @@ img {
   border: 1px solid #afb1b8;
   color: #afb1b8;
 }
-.clients-thumb:hover {
+.clients-link:hover,
+.clients-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
